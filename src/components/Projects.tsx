@@ -4,29 +4,27 @@ import { ExternalLink, Github, Code, Cloud, GitBranch, Shield } from 'lucide-rea
 const Projects: React.FC = () => {
   const projects = [
     {
-      title: "End-to-End DevOps for Golang Web App",
+      title: "Full-Stack Blogging App – End-to-End CI/CD Pipeline",
       description: "Complete DevOps pipeline implementation for a Golang web application with automated testing, deployment, and monitoring.",
       technologies: ["GitHub Actions", "ArgoCD", "Helm", "Kubernetes", "Python", "Bash", "RBAC", "IAM"],
       highlights: [
-        "Implemented GitHub Actions CI/CD pipeline for automated testing and building",
-        "Set up ArgoCD for GitOps-based continuous deployment",
-        "Created Helm charts for Kubernetes application packaging",
-        "Implemented RBAC and IAM security policies",
-        "Automated infrastructure tasks using Python and Bash scripts"
+        "Built an automated CI/CD pipeline using Jenkins integrating GitHub, Maven, SonarQube, Trivy, and Nexus Repository",
+        "Containerized the application with Docker and deployed to a Kubernetes cluster provisioned using Terraform.",
+        "Configured Prometheus + Grafana monitoring with alerting and email notifications for reliability",
+        "Delivered a secure, production-ready DevOps workflow, reducing release cycle time and ensuring high availability"
       ],
       icon: <GitBranch className="w-6 h-6" />,
       color: "from-blue-500 to-blue-600"
     },
     {
-      title: "Cloud-Native MERN Stack Application",
+      title: "Scalable Java Application Deployment on AWS",
       description: "Fully automated cloud-native MERN stack application with infrastructure as code, secure networking, and comprehensive monitoring.",
       technologies: ["Terraform", "Jenkins", "ArgoCD", "Route 53", "SSL/TLS", "Prometheus", "Grafana", "AWS"],
       highlights: [
-        "Automated infrastructure provisioning using Terraform",
-        "Implemented Jenkins and ArgoCD for robust CI/CD pipeline",
-        "Configured Route 53 DNS management with SSL/TLS certificates",
-        "Set up comprehensive monitoring with Prometheus and Grafana",
-        "Ensured high availability and scalability across cloud regions"
+        "Built an immutable infrastructure model for a Java application using Packer, Ansible, and Terraform.",
+        "Automated provisioning of RDS, Load Balancer, and Auto Scaling Groups, with secrets stored in AWS Secrets Manager",
+        "Configured CloudWatch logging and dashboards along with Prometheus monitoring for application metrics",
+        "Validated application scaling and reliability through Load Balancer endpoint testing and autoscaling scenarios"
       ],
       icon: <Cloud className="w-6 h-6" />,
       color: "from-teal-500 to-teal-600"
