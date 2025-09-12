@@ -3,33 +3,33 @@ import { ExternalLink, Github, Code, Cloud, GitBranch, Shield } from 'lucide-rea
 
 const Projects: React.FC = () => {
   const projects = [
-    {
-      title: "Full-Stack Blogging App – End-to-End CI/CD Pipeline",
-      description: "Complete DevOps pipeline implementation for a Golang web application with automated testing, deployment, and monitoring.",
-      technologies: ["GitHub Actions", "ArgoCD", "Helm", "Kubernetes", "Python", "Bash", "RBAC", "IAM"],
-      highlights: [
-        "Built an automated CI/CD pipeline using Jenkins integrating GitHub, Maven, SonarQube, Trivy, and Nexus Repository",
-        "Containerized the application with Docker and deployed to a Kubernetes cluster provisioned using Terraform.",
-        "Configured Prometheus + Grafana monitoring with alerting and email notifications for reliability",
-        "Delivered a secure, production-ready DevOps workflow, reducing release cycle time and ensuring high availability"
-      ],
-      icon: <GitBranch className="w-6 h-6" />,
-      color: "from-blue-500 to-blue-600"
-    },
-    {
-      title: "Scalable Java Application Deployment on AWS",
-      description: "Fully automated cloud-native MERN stack application with infrastructure as code, secure networking, and comprehensive monitoring.",
-      technologies: ["Terraform", "Jenkins", "ArgoCD", "Route 53", "SSL/TLS", "Prometheus", "Grafana", "AWS"],
-      highlights: [
-        "Built an immutable infrastructure model for a Java application using Packer, Ansible, and Terraform.",
-        "Automated provisioning of RDS, Load Balancer, and Auto Scaling Groups, with secrets stored in AWS Secrets Manager",
-        "Configured CloudWatch logging and dashboards along with Prometheus monitoring for application metrics",
-        "Validated application scaling and reliability through Load Balancer endpoint testing and autoscaling scenarios"
-      ],
-      icon: <Cloud className="w-6 h-6" />,
-      color: "from-teal-500 to-teal-600"
-    }
-  ];
+  {
+    title: "Full-Stack Blogging App – End-to-End CI/CD Pipeline",
+    description: "Complete DevOps pipeline implementation for a Golang web application with automated testing, deployment, and monitoring.",
+    technologies: ["Git", "GitHub", "Maven", "Jenkins", "SonarQube", "Trivy", "Nexus", "Docker", "Kubernetes", "Python", "Bash", "RBAC", "IAM"],
+    highlights: [
+      "Built an automated CI/CD pipeline using Jenkins integrating GitHub, Maven, SonarQube, Trivy, and Nexus Repository",
+      "Containerized the application with Docker and deployed to a Kubernetes cluster provisioned using Terraform.",
+      "Configured Prometheus + Grafana monitoring with alerting and email notifications for reliability",
+      "Delivered a secure, production-ready DevOps workflow, reducing release cycle time and ensuring high availability"
+    ],
+    icon: <GitBranch className="w-6 h-6" />,
+    color: "from-blue-500 to-blue-600"
+  },
+  {
+    title: "Scalable Java Application Deployment on AWS",
+    description: "Fully automated cloud-native MERN stack application with infrastructure as code, secure networking, and comprehensive monitoring.",
+    technologies: ["Terraform", "Jenkins", "ArgoCD", "Route 53", "SSL/TLS", "Prometheus", "Grafana", "AWS"],
+    highlights: [
+      "Built an immutable infrastructure model for a Java application using Packer, Ansible, and Terraform.",
+      "Automated provisioning of RDS, Load Balancer, and Auto Scaling Groups, with secrets stored in AWS Secrets Manager",
+      "Configured CloudWatch logging and dashboards along with Prometheus monitoring for application metrics",
+      "Validated application scaling and reliability through Load Balancer endpoint testing and autoscaling scenarios"
+    ],
+    icon: <Cloud className="w-6 h-6" />,
+    color: "from-teal-500 to-teal-600"
+  }
+];
 
   return (
     <section id="projects" className="py-20 bg-gray-900">
