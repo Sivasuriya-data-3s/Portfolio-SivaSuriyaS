@@ -10,10 +10,10 @@ const Experience: React.FC = () => {
       location: "Chennai, India",
       type: "Professional Experience",
       highlights: [
-        "Built robust Kubernetes deployments for containerized applications",
-        "Implemented CI/CD pipelines using Jenkins for automated testing and deployment",
-        "Reduced release cycle time from 2 weeks to 3 days through process optimization",
-        "Improved team productivity by 20% through automation and streamlined workflows"
+        "Deployed containerized applications on Kubernetes, reducing deployment errors by 40%",
+        "Built an end-to-end CI/CD framework with Jenkins, improving team productivity by 20% through automated testing and deployment",
+        "Designed CI/CD pipelines with Jenkins and GitHub Actions, reducing release cycles from 2 weeks to 3 days",
+        "Automated infrastructure provisioning and configuration using Terraform and Ansible, improving consistency and reducing manual effort."
       ],
       technologies: ["Kubernetes", "Jenkins", "Docker", "CI/CD", "Automation"]
     },
